@@ -75,3 +75,9 @@ The backend provides three API endpoints to fetch real-time data about stock pri
 # [Backend](https://github.com/shivamkumarsingh28/Probo_Trading_Bot_Project/tree/main/backend) 
 
 # [Frontend](https://github.com/shivamkumarsingh28/Probo_Trading_Bot_Project/tree/main/frontend)
+
+![Screenshot 2024-10-04 224258](https://github.com/user-attachments/assets/b6d4cfde-6bdc-4cc4-bd67-148de68c6b3c)
+![Screenshot 2024-10-04 224218](https://github.com/user-attachments/assets/576392e5-7da0-4bc5-b9aa-11464372f0c4)
+![Screenshot 2024-10-04 224151](https://github.com/user-attachments/assets/ed88eff3-b590-4d8a-97e9-7a2d4941e447)
+![Screenshot 2024-10-04 224134](https://github.com/user-attachments/assets/8a3c6f30-3126-43ad-8d3b-97aeed4f0d2c)
+
