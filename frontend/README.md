@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Frontend probo trading bot 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Git Clone
+### `git clone frontend`
 
-## Available Scripts
+- cd frontend folder
+  
+### `cd frontend`
 
-In the project directory, you can run:
+## Install package from package.json
+
+### `npm i`
+
+## start frontend server 
 
 ### `npm start`
 
