@@ -71,3 +71,7 @@ The backend provides three API endpoints to fetch real-time data about stock pri
      ```
    - **Description**: Returns the bot’s trade history, showing all buy and sell transactions with price and time details.
 
+
+# [Backend](https://github.com/shivamkumarsingh28/Probo_Trading_Bot_Project/tree/main/backend) 
+
+# [Frontend](https://github.com/shivamkumarsingh28/Probo_Trading_Bot_Project/tree/main/frontend)
