@@ -22,7 +22,7 @@ const checkTrade = () => {
   // Check buying condition: buy if no stocks and price drops by 2% from the last price
   if (!buyPrice && balance >= currentPrice * 0.98) {
     buyPrice = currentPrice;  // Buy the stock
-    position = balance / currentPrice;  // Convert all balance to stock
+    position = Math.floor(balance / currentPrice);  // Convert all balance to stock
     balance = 0;  // No cash left after buying
     TRADE_LOG.push({ type: 'BUY', price: currentPrice, time: stock.timestamp, balanceAfterTrade: balance });
     console.log(`Bought stock at ${currentPrice}. Balance after trade: ${balance}`);

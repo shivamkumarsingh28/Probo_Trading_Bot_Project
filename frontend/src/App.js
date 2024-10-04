@@ -11,6 +11,8 @@ function App() {
   const [balance, setBalance] = useState({ balance: 0, position: 0 });
   const [trades, setTrades] = useState([]);
   const [isTrading, setIsTrading] = useState(false); // State to track if trading is active
+  const [error, setError] = useState(null); // State to track errors
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,6 +26,7 @@ function App() {
         setTrades(tradeLogResponse.data.TRADE_LOG);
       } catch (error) {
         console.error('Error fetching data from backend:', error);
+        setError('Failed to fetch data. Please run your backend.'); // Set error message
       }
     };
 
@@ -36,6 +39,7 @@ function App() {
 
   const resetTrades = () => {
     setTrades([]); // Reset trades to an empty array
+    
   };
 
   const startTradeBot = async () => {
@@ -51,6 +55,7 @@ function App() {
   return (
     <div className="container mt-5">
       <h1 className="text-center mb-4">Probo Trading Bot Dashboard</h1>
+      {error && <div className="alert alert-danger">{error}</div>} {/* Display error message */}
       <StockInfo stock={stock} />
       <BalanceInfo balance={balance.balance} position={balance.position} />
       <TradeLog trades={trades} />
